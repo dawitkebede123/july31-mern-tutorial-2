@@ -1,10 +1,14 @@
+import { ChakraProvider,Box,Heading,Button } from "@chakra-ui/react"
+import  "./style.css"
 function App() {
   
 
   return (
-   <div>
-    <h1>hello</h1>
-   </div>
+  <Box id="container">
+    <Box id="upper"></Box>
+    <Box id="middle"></Box>
+    <Box id="lower"></Box>
+  </Box>
   )
 }
 
